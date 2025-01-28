@@ -11,7 +11,7 @@ import SwiftUI
 struct NooroTakeHomeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BodyView()
         }
     }
 }

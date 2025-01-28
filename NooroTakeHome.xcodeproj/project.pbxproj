@@ -29,9 +29,22 @@
 		AB90305A2D45C48900EF3763 /* NooroTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NooroTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AB9030762D473DA800EF3763 /* Exceptions for "NooroTakeHome" folder in "NooroTakeHome" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AB90303F2D45C48700EF3763 /* NooroTakeHome */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AB9030422D45C48700EF3763 /* NooroTakeHome */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AB9030762D473DA800EF3763 /* Exceptions for "NooroTakeHome" folder in "NooroTakeHome" target */,
+			);
 			path = NooroTakeHome;
 			sourceTree = "<group>";
 		};
@@ -43,6 +56,11 @@
 		AB90305D2D45C48900EF3763 /* NooroTakeHomeUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NooroTakeHomeUITests;
+			sourceTree = "<group>";
+		};
+		AB9030AE2D473F3600EF3763 /* Fonts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				AB9030422D45C48700EF3763 /* NooroTakeHome */,
+				AB9030AE2D473F3600EF3763 /* Fonts */,
 				AB9030532D45C48900EF3763 /* NooroTakeHomeTests */,
 				AB90305D2D45C48900EF3763 /* NooroTakeHomeUITests */,
 				AB9030412D45C48700EF3763 /* Products */,
@@ -109,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				AB9030422D45C48700EF3763 /* NooroTakeHome */,
+				AB9030AE2D473F3600EF3763 /* Fonts */,
 			);
 			name = NooroTakeHome;
 			packageProductDependencies = (
@@ -399,6 +419,7 @@
 				DEVELOPMENT_TEAM = Q9Y4KHSR78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NooroTakeHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +449,7 @@
 				DEVELOPMENT_TEAM = Q9Y4KHSR78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NooroTakeHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
